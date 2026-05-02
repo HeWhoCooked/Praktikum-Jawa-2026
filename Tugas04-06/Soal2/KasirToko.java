@@ -67,9 +67,9 @@ public class KasirToko {
         System.out.println("\n========= STRUK PEMBAYARAN =========");
         System.out.println("Nama Pelanggan   : " + namaPelanggan);
         System.out.println("Kategori Member  : " + kategoriMember);
-        System.out.printf("Total Belanja    : Rp %.0f\n", totalBelanja);
-        System.out.printf("Diskon (%.0f%%)      : Rp %.0f\n", (persentaseDiskon * 100), nilaiDiskon);
-        System.out.printf("Total Bayar      : Rp %.0f\n", totalBayar);
+        System.out.printf("Total Belanja    : Rp %,.2f%n", totalBelanja);
+        System.out.printf("Diskon (%.0f%%)     : Rp %,.2f%n", (persentaseDiskon * 100), nilaiDiskon);
+        System.out.printf("Total Bayar      : Rp %,.2f%n", totalBayar);
         System.out.println("------------------------------------");
         System.out.println("Metode Pembayaran: " + metodePembayaran);
         System.out.println("====================================");
